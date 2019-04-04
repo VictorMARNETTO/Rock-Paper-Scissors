@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META 
+    ================================= -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- STYLE
+    ================================= -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS
+    ================================= -->
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+
+    <!-- TITLE
+    ================================= -->
+
+    <title>Pierre, Feuille, Ciseaux !</title>
+
+</head>
+<body>
+    <header>
+        <h1>Pierre, Feuille, Ciseaux !</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">
+            User
+        </div>
+        <div id="computer-label" class="badge">
+            Computer
+        </div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div class="result">
+        <p></p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img class="choices-images" src="images/pierre.png" alt="Pierre">
+        </div>
+        <div class="choice" id="paper">
+            <img class="choices-images" src="images/feuille.png" alt="Feuille">
+        </div>
+        <div class="choice" id="scissors">
+            <img class="choices-images" src="images/ciseaux.png" alt="Ciseaux">
+        </div>
+    </div>
+    <p id="action-message">Fais ton choix !</p>
+
+    <a href="">
+        <button>Recommencer</button>
+    </a>
+
+    <div class="decoration-images">
+        <img class="mickey-pic disney" src="images/mickey_mouse.webp" alt="Mickey Mouse">
+        <img class="donald-pic disney"src="images/donald_duck.webp" alt="Donald Duck">
+        <img class="draw-pic disney"src="images/draw.png" alt="Draw">
+    </div>
+
+    <div class="computerChoice">
+        <h3>Choix adverse :</h3>
+        <img class="computer-choice rock choices-images" src="images/pierre.png" alt="Pierre">
+        <p class="rock"></p>
+        <img class="computer-choice paper choices-images" src="images/feuille.png" alt="Feuille">
+        <img class="computer-choice scissors choices-images" src="images/ciseaux.png" alt="Ciseaux">
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
