@@ -60,7 +60,7 @@ function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML=computerScore;
-    result_p.innerHTML= `${convertToWord(userChoice)} bat ${convertToWord(computerChoice)} <br> Tu gagne !`;
+    result_p.innerHTML= `${convertToWord(userChoice)} bat ${convertToWord(computerChoice)} <br> Tu gagnes !`;
     mickey_img.style.opacity = "1";
     donald_img.style.opacity = "0";
     draw_img.style.opacity = "0";
@@ -70,7 +70,7 @@ function lose(userChoice, computerChoice) {
     computerScore++;
     computerScore_span.innerHTML = computerScore;
     userScore_span.innerHTML=userScore;
-    result_p.innerHTML= `${convertToWord(userChoice)} ne bat pas ${convertToWord(computerChoice)} <br> Tu perd !`;
+    result_p.innerHTML= `${convertToWord(userChoice)} ne bat pas ${convertToWord(computerChoice)} <br> Tu perds !`;
     donald_img.style.opacity = "1";
     mickey_img.style.opacity = "0";
     draw_img.style.opacity = "0";
